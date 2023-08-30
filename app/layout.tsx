@@ -69,11 +69,11 @@ export default function RootLayout({
             <div className="grow" />
             <SignedIn>
               <div className="hidden sm:block">
-                <OrganizationSwitcher afterCreateOrganizationUrl="/dashboard" />
+                <OrganizationSwitcher afterCreateOrganizationUrl="/dot.path/dashboard" />
               </div>
               <div className="block sm:hidden">
                 <OrganizationSwitcher
-                  afterCreateOrganizationUrl="/dashboard"
+                  afterCreateOrganizationUrl="/dot.path/dashboard"
                   appearance={{
                     elements: {
                       organizationSwitcherTriggerIcon: `hidden`,
